@@ -45,4 +45,6 @@ Sitio web: [https://emelink.vercel.app/](https://emelink.vercel.app/)
 
 Los materiales didácticos originales de estos talleres se comparten bajo la licencia [Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.es). Puedes compartirlos y adaptarlos dando crédito a Aimée Pineda e indicando los cambios; las adaptaciones deben compartirse bajo la misma licencia. Los logotipos y marcas conservan los derechos de sus respectivos titulares.
 
+---
+
 #STEMEstáEnTodosLados #MéxicoSTEMWeek #YoSoySTEM
