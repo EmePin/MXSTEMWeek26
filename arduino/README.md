@@ -336,6 +336,8 @@ La organización e impartición del taller está a cargo de **Aimée Pineda**, E
 
 Los materiales didácticos originales de estos talleres se comparten bajo la licencia [Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.es). La licencia permite compartir y adaptar los materiales con atribución a Aimee Pineda e indicación de los cambios; las adaptaciones deben compartirse bajo la misma licencia. Los logotipos y marcas conservan los derechos de sus respectivos titulares.
 
+Última actualización de la licencia: 6 de noviembre de 2026.
+
 ---
 
 #STEMEstáEnTodosLados #MéxicoSTEMWeek #YoSoySTEM

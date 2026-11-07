@@ -15,7 +15,6 @@ El taller introduce los fundamentos de los algoritmos y la programación mediant
 - [Información de la actividad](#información-de-la-actividad)
 - [Requisitos](#requisitos)
 - [Reto](#reto)
-- [Reto adicional: crear un segundo nivel](#reto-adicional-crear-un-segundo-nivel)
 - [Conceptos de programación para el taller](#conceptos-de-programación-para-el-taller)
   - [1. ¿Qué es un algoritmo?](#1-qué-es-un-algoritmo)
 - [Temario](#temario)
@@ -48,11 +47,15 @@ El taller introduce los fundamentos de los algoritmos y la programación mediant
 
 ## Reto
 
-El reto consiste en crear un juego en el que el personaje recorra un laberinto, evite tocar sus paredes y llegue a la meta. Para programar las reglas se emplean eventos, condicionales, ciclos y variables.
+Desarrolla un videojuego de laberinto en Scratch. El jugador controlará un robot que deberá encontrar la salida mientras evita las paredes, obstáculos y un rayo en movimiento. Integra eventos, movimiento, condicionales, ciclos, variables y comunicación entre objetos para programar estas reglas:
 
-## Reto adicional: crear un segundo nivel
+1. **Movimiento del robot:** coloca al robot en una posición inicial y permite que se desplace por el laberinto con las flechas del teclado (arriba, abajo, izquierda y derecha).
+2. **Colisiones con las paredes:** si el robot toca una pared, debe regresar automáticamente a su posición inicial.
+3. **Rayo en movimiento:** programa el rayo para que se desplace de arriba hacia abajo y viceversa entre dos posiciones. Si toca al robot, este debe regresar a su posición inicial.
+4. **Cambio de nivel:** inicia el juego en el nivel 1. Cuando el robot llegue a la bandera verde, debe avanzar al nivel 2.
+5. **Animación de victoria:** al completar el nivel, reproduce un sonido de victoria, muestra un diálogo del robot y ejecuta una animación en la que levante la mano para celebrar.
 
-El reto adicional consiste en crear un segundo nivel con un nuevo laberinto, escenarios, objetos y reglas, además de establecer cómo se avanza desde el primer nivel cuando el personaje llega a la meta.
+El propósito del reto es integrar estructuras de control, eventos, movimiento, detección de colisiones y comunicación entre objetos para crear un videojuego funcional.
 
 ## **Conceptos de programación para el taller**
 
@@ -118,6 +121,8 @@ La organización e impartición del taller está a cargo de **Aimée Pineda**, E
 ## Licencia
 
 Los materiales didácticos originales de estos talleres se comparten bajo la licencia [Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.es). La licencia permite compartir y adaptar los materiales con atribución a Aimee Pineda e indicación de los cambios; las adaptaciones deben compartirse bajo la misma licencia. Los logotipos y marcas conservan los derechos de sus respectivos titulares.
+
+Última actualización de la licencia: 6 de noviembre de 2026.
 
 ---
 
