@@ -10,11 +10,45 @@
 
 El taller aborda fundamentos de electrónica y programación mediante circuitos con Arduino UNO R3 en Tinkercad. Incluye el reconocimiento de componentes, la realización de conexiones, la aplicación de la Ley de Ohm y la programación con variables, funciones y ciclos, fortaleciendo el razonamiento lógico y la exploración de nuevas ideas.
 
+## Índice
+
+- [Información de la actividad](#información-de-la-actividad)
+- [Retos de programación](#retos-de-programación)
+  - [Reto 1: Encender un LED](#reto-1-encender-un-led)
+  - [Reto 2: Parpadeos según el número del pin](#reto-2-parpadeos-según-el-número-del-pin)
+  - [Reto adicional: Controlar varios LED](#reto-adicional-controlar-varios-led)
+- [Temario](#temario)
+- [Requisitos](#requisitos)
+- [Componentes del reto](#componentes-del-reto)
+- [Código de ejemplo](#código-de-ejemplo)
+- [Conceptos de programación para el taller](#conceptos-de-programación-para-el-taller)
+  - [1. ¿Qué es un algoritmo?](#1-qué-es-un-algoritmo)
+  - [2. ¿Qué es una variable?](#2-qué-es-una-variable)
+  - [3. ¿Qué tipos de datos podemos guardar en una variable?](#3-qué-tipos-de-datos-podemos-guardar-en-una-variable)
+  - [4. ¿Qué es una constante?](#4-qué-es-una-constante)
+  - [5. ¿Qué significa inicializar?](#5-qué-significa-inicializar)
+  - [6. ¿Qué operadores se utilizan en C++?](#6-qué-operadores-se-utilizan-en-c)
+  - [7. ¿Para qué se utiliza `if`?](#7-para-qué-se-utiliza-if)
+  - [8. ¿Qué es un ciclo?](#8-qué-es-un-ciclo)
+  - [9. ¿Cuándo utilizo `while`?](#9-cuándo-utilizo-while)
+  - [10. ¿Cuándo utilizo `for`?](#10-cuándo-utilizo-for)
+  - [11. ¿Qué es una función?](#11-qué-es-una-función)
+  - [12. ¿Qué es una función vacía o que no retorna nada?](#12-qué-es-una-función-vacía-o-que-no-retorna-nada)
+  - [13. ¿Cuáles son los tipos de errores en programación?](#13-cuáles-son-los-tipos-de-errores-en-programación)
+  - [14. ¿Cuáles son las reglas para nombrar variables en C++?](#14-cuáles-son-las-reglas-para-nombrar-variables-en-c)
+- [Habilidades que se practican](#habilidades-que-se-practican)
+- [Ejemplos de proyectos para continuar aprendiendo](#ejemplos-de-proyectos-para-continuar-aprendiendo)
+- [Tutoriales para continuar aprendiendo](#tutoriales-para-continuar-aprendiendo)
+- [Más información](#más-información)
+- [¿Quién organiza e imparte?](#quién-organiza-e-imparte)
+- [Licencia](#licencia)
+
 ## Información de la actividad
 
 - **Fecha:** domingo 8 de noviembre de 2026
 - **Horario:** 18:00 a 20:00 h (UTC-6)
-- **Modalidad:** en línea y en vivo
+- **Modalidad:** en línea y en vivo por YouTube
+- **Transmisión:** [Ver el taller en YouTube](https://youtube.com/live/1a1yBBRa-ws?feature=share)
 - **Participación:** abierta a cualquier país
 - **Idioma:** español
 - **Costo:** gratuito
@@ -31,11 +65,11 @@ El taller aborda fundamentos de electrónica y programación mediante circuitos 
 
 ### Reto 1: Encender un LED
 
-Conecta un LED a la placa Arduino UNO R3 y escribe un programa para encenderlo.
+El reto consiste en encender un LED conectado a la placa Arduino UNO R3 mediante un programa.
 
 ### Reto 2: Parpadeos según el número del pin
 
-Conecta dos LED a dos pines digitales diferentes de una placa UNO R3 y desarrolla un programa en el que cada LED parpadee según el número del pin al que está conectado:
+El reto consiste en conectar dos LED a pines digitales diferentes de una placa UNO R3 y desarrollar un programa en el que cada LED parpadee según el número del pin al que está conectado:
 
 - Si el número del pin es par, el LED debe parpadear dos veces.
 - Si el número del pin es impar, el LED debe parpadear tres veces.
@@ -44,7 +78,7 @@ Conecta dos LED a dos pines digitales diferentes de una placa UNO R3 y desarroll
 
 ### Reto adicional: Controlar varios LED
 
-Modifica el programa para que ambos LED parpadeen al mismo tiempo. Después, imagina que necesitas controlar los LED conectados a todos los pines digitales del 2 al 9: ¿cómo podrías recorrer ese rango de pines y controlar sus parpadeos sin escribir una llamada a `parpadear()` para cada LED?
+El reto adicional consiste en modificar el programa para que ambos LED parpadeen al mismo tiempo. Como extensión, se plantea cómo recorrer los pines digitales del 2 al 9 y controlar sus parpadeos sin escribir una llamada a `parpadear()` para cada LED.
 
 ## Temario
 
@@ -56,7 +90,7 @@ Modifica el programa para que ambos LED parpadeen al mismo tiempo. Después, ima
 | 90–110 min | **Pruebas y mejoras** | Simulación del circuito y ajuste de conexiones y código para corregir errores. |
 | 110–120 min | **Resultados y preguntas** | Presentación de resultados y espacio para compartir preguntas e ideas. |
 
-## Qué necesitas
+## Requisitos
 
 - Una computadora con conexión a internet.
 - No se requiere experiencia previa ni contar con una placa física de Arduino.
@@ -69,7 +103,7 @@ Modifica el programa para que ambos LED parpadeen al mismo tiempo. Después, ima
 - Tres resistencias para LED (por ejemplo, 220 Ω).
 - Cables virtuales y protoboard (opcional).
 
-Conecta el ánodo de cada LED (pata larga) a un pin digital mediante una resistencia y el cátodo (pata corta) a GND. El código de ejemplo enciende y apaga el LED integrado del pin 13.
+La conexión de cada LED requiere que el ánodo (pata larga) se conecte a un pin digital mediante una resistencia y que el cátodo (pata corta) se conecte a GND. El código de ejemplo enciende y apaga el LED integrado del pin 13.
 
 ## Código de ejemplo
 
@@ -261,30 +295,32 @@ En Arduino también puede haber problemas fuera del código, por ejemplo, una co
    - Poco recomendable: `x`, `dato1`
 7. **Mantener una misma convención de escritura.** Por ejemplo, usar camelCase: `ledAzul`, `tiempoEspera`, `numeroRepeticiones`.
 
-## Habilidades que practicarás
+## Habilidades que se practican
 
 Electrónica básica · componentes y conexiones · Ley de Ohm · entradas y salidas digitales · variables · funciones · ciclos · simulación y depuración.
 
-## Tutoriales oficiales y proyectos para seguir practicando
+## Ejemplos de proyectos para continuar aprendiendo
 
-- [Tutoriales de circuitos de Tinkercad](https://www.tinkercad.com/learn/circuits): guías paso a paso para simular y programar circuitos.
-- [Ejemplos oficiales de Arduino](https://docs.arduino.cc/built-in-examples/): prácticas como hacer parpadear un LED, leer un botón, usar ciclos y generar tonos.
+- [Galería comunitaria de circuitos de Tinkercad](https://www.tinkercad.com/things?sort=popular&type=circuits&view_mode=small).
+- [Proyectos compartidos en Arduino Project Hub](https://projecthub.arduino.cc/).
+
+## Tutoriales para continuar aprendiendo
+
+- [Tutoriales oficiales de circuitos de Tinkercad](https://www.tinkercad.com/learn/circuits): guías para simular y programar circuitos.
 - [Tutoriales oficiales de Arduino](https://docs.arduino.cc/tutorials/).
-
-En Tinkercad puedes crear con Arduino proyectos como un semáforo con LED, un LED controlado por un botón, una secuencia de luces o una alarma sencilla con un zumbador.
 
 ## Más información
 
 - **En vivo y más detalles:** [https://makestem.vercel.app/](https://makestem.vercel.app/)
 - **México STEM Week — actividades:** [https://mexicostemweek.org/actividades/](https://mexicostemweek.org/actividades/)
 
-## Organiza e imparte
+## ¿Quién organiza e imparte?
 
-**Aimée Pineda** · [emelink.vercel.app](https://emelink.vercel.app/)
+La organización e impartición del taller está a cargo de **Aimée Pineda**, EdTech Developer. [Sitio web](https://emelink.vercel.app/).
 
 ## Licencia
 
-Los materiales didácticos originales de estos talleres se comparten bajo la licencia [Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.es). Puedes compartirlos y adaptarlos dando crédito a Aimee Pineda e indicando los cambios; las adaptaciones deben compartirse bajo la misma licencia. Los logotipos y marcas conservan los derechos de sus respectivos titulares.
+Los materiales didácticos originales de estos talleres se comparten bajo la licencia [Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.es). La licencia permite compartir y adaptar los materiales con atribución a Aimee Pineda e indicación de los cambios; las adaptaciones deben compartirse bajo la misma licencia. Los logotipos y marcas conservan los derechos de sus respectivos titulares.
 
 ---
 

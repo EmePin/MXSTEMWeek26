@@ -10,11 +10,29 @@
 
 El taller introduce los fundamentos de los algoritmos y la programación mediante la creación de un videojuego de laberinto con Scratch. Se programa un personaje, se incorporan obstáculos y se establece una meta mediante el uso de eventos, variables, condicionales y ciclos. La actividad promueve el pensamiento lógico, la creatividad y la resolución de problemas mediante ejercicios prácticos.
 
+## Índice
+
+- [Información de la actividad](#información-de-la-actividad)
+- [Reto](#reto)
+- [Reto adicional: crear un segundo nivel](#reto-adicional-crear-un-segundo-nivel)
+- [Conceptos de programación para el taller](#conceptos-de-programación-para-el-taller)
+  - [1. ¿Qué es un algoritmo?](#1-qué-es-un-algoritmo)
+- [Temario](#temario)
+- [Requisitos](#requisitos)
+- [Recursos de este proyecto](#recursos-de-este-proyecto)
+- [Habilidades que se practican](#habilidades-que-se-practican)
+- [Ejemplos de proyectos para continuar aprendiendo](#ejemplos-de-proyectos-para-continuar-aprendiendo)
+- [Tutoriales para continuar aprendiendo](#tutoriales-para-continuar-aprendiendo)
+- [Más información](#más-información)
+- [¿Quién organiza e imparte?](#quién-organiza-e-imparte)
+- [Licencia](#licencia)
+
 ## Información de la actividad
 
 - **Fecha:** sábado 7 de noviembre de 2026
 - **Horario:** 18:00 a 20:00 h (UTC-6)
-- **Modalidad:** en línea y en vivo
+- **Modalidad:** en línea y en vivo por YouTube
+- **Transmisión:** [Ver el taller en YouTube](https://youtube.com/live/IqgxJ8tYz1s?feature=share)
 - **Participación:** abierta a cualquier país
 - **Idioma:** español
 - **Costo:** gratuito
@@ -23,11 +41,11 @@ El taller introduce los fundamentos de los algoritmos y la programación mediant
 
 ## Reto
 
-Crear un juego en el que el personaje recorra un laberinto, evite tocar sus paredes y llegue a la meta. Usar eventos, condicionales, ciclos y variables para programar las reglas y mejorar el juego.
+El reto consiste en crear un juego en el que el personaje recorra un laberinto, evite tocar sus paredes y llegue a la meta. Para programar las reglas se emplean eventos, condicionales, ciclos y variables.
 
 ## Reto adicional: crear un segundo nivel
 
-Crear un segundo nivel con un nuevo laberinto, escenarios, objetos y reglas. Diseñar cómo avanzar del primer nivel al segundo cuando el personaje llegue a la meta.
+El reto adicional consiste en crear un segundo nivel con un nuevo laberinto, escenarios, objetos y reglas, además de establecer cómo se avanza desde el primer nivel cuando el personaje llega a la meta.
 
 ## **Conceptos de programación para el taller**
 
@@ -59,7 +77,7 @@ Es un conjunto ordenado y finito de pasos o instrucciones para resolver un probl
 | 90–110 min | **Pruebas y mejoras** | Corrección de errores, pruebas del juego y mejoras al recorrido. |
 | 110–120 min | **Presentación y preguntas** | Presentación del proyecto y espacio para compartir preguntas e ideas. |
 
-## Qué necesitas
+## Requisitos
 
 - Una computadora con conexión a internet.
 - No se requiere experiencia previa.
@@ -70,29 +88,31 @@ Es un conjunto ordenado y finito de pasos o instrucciones para resolver un probl
 - `maze_background.png`: escenario de laberinto.
 - `robot.png` y `robot_hi.png`: recursos gráficos del personaje.
 
-## Habilidades que practicarás
+## Habilidades que se practican
 
 Algoritmos · eventos · movimiento · condicionales · ciclos · variables · pruebas y depuración · creatividad.
 
-## Tutoriales oficiales y proyectos para seguir practicando
+## Ejemplos de proyectos para continuar aprendiendo
 
-- [Tutoriales oficiales de Scratch](https://scratch.mit.edu/help/videos/): instrucciones para crear juegos, historias y animaciones.
-- [Proyectos iniciales oficiales de Scratch](https://scratch.mit.edu/help/starter_projects/): ejemplos para explorar y modificar, como un laberinto, Pong y juegos de atrapar objetos.
+- [Proyectos compartidos en Scratch](https://scratch.mit.edu/explore/projects/all).
+- [Proyectos iniciales creados por el equipo de Scratch](https://scratch.mit.edu/help/starter_projects/).
 
-Puedes crear en Scratch nuevos niveles para el laberinto, un juego de plataformas, un juego de preguntas o una historia interactiva.
+## Tutoriales para continuar aprendiendo
+
+- [Tutoriales oficiales de Scratch](https://scratch.mit.edu/help/videos/): videos sobre juegos, historias y animaciones.
 
 ## Más información
 
 - **En vivo y más detalles:** [https://makestem.vercel.app/](https://makestem.vercel.app/)
 - **México STEM Week — actividades:** [https://mexicostemweek.org/actividades/](https://mexicostemweek.org/actividades/)
 
-## Organiza e imparte
+## ¿Quién organiza e imparte?
 
-**Aimée Pineda** · [emelink.vercel.app](https://emelink.vercel.app/)
+La organización e impartición del taller está a cargo de **Aimée Pineda**, EdTech Developer. [Sitio web](https://emelink.vercel.app/).
 
 ## Licencia
 
-Los materiales didácticos originales de estos talleres se comparten bajo la licencia [Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.es). Puedes compartirlos y adaptarlos dando crédito a Aimee Pineda e indicando los cambios; las adaptaciones deben compartirse bajo la misma licencia. Los logotipos y marcas conservan los derechos de sus respectivos titulares.
+Los materiales didácticos originales de estos talleres se comparten bajo la licencia [Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.es). La licencia permite compartir y adaptar los materiales con atribución a Aimee Pineda e indicación de los cambios; las adaptaciones deben compartirse bajo la misma licencia. Los logotipos y marcas conservan los derechos de sus respectivos titulares.
 
 ---
 
