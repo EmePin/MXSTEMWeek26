@@ -99,10 +99,12 @@ Algoritmos · eventos · movimiento · condicionales · ciclos · variables · p
 ## Ejemplos de proyectos para continuar aprendiendo
 
 - [Proyectos compartidos en Scratch](https://scratch.mit.edu/explore/projects/all).
-- [Proyectos iniciales creados por el equipo de Scratch](https://scratch.mit.edu/help/starter_projects/).
+- [Proyectos iniciales de Scratch](https://scratch.mit.edu/starter-projects).
+- [Ideas de proyectos de Scratch](https://scratch.mit.edu/ideas).
 
 ## Tutoriales para continuar aprendiendo
 
+- [Tutoriales paso a paso en el editor de Scratch](https://scratch.mit.edu/projects/editor/?tutorial=all).
 - [Tutoriales oficiales de Scratch](https://scratch.mit.edu/help/videos/): videos sobre juegos, historias y animaciones.
 
 ## Solución paso a paso: Creación de videojuegos con Scratch
