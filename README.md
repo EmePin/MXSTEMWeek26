@@ -18,6 +18,7 @@ Dos talleres gratuitos para explorar programación y electrónica creando proyec
 - [Ejemplos de proyectos para continuar aprendiendo](#ejemplos-de-proyectos-para-continuar-aprendiendo)
 - [Tutoriales para continuar aprendiendo](#tutoriales-para-continuar-aprendiendo)
 - [Soluciones paso a paso de los talleres en vivo](#soluciones-paso-a-paso-de-los-talleres-en-vivo)
+- [Encuesta de satisfacción](#encuesta-de-satisfacción)
 - [¿Quién organiza e imparte?](#quién-organiza-e-imparte)
 - [Más información](#más-información)
 - [Licencia](#licencia)
@@ -60,6 +61,16 @@ Ambos talleres son en línea, gratuitos, en español y abiertos a cualquier paí
 
 - La [solución paso a paso de Creación de videojuegos con Scratch](scratch/solucion-creacion-videojuegos-scratch.md) se actualizará después de que termine la transmisión en vivo de Creación de videojuegos con Scratch.
 - La [solución paso a paso de Creación de circuitos con Tinkercad](arduino/solucion-creacion-circuitos-tinkercad.md) se actualizará después de que termine la transmisión en vivo de Creación de circuitos con Tinkercad.
+
+## Encuesta de satisfacción
+
+Después de participar en los talleres, responder la [encuesta de satisfacción](https://bit.ly/4gOOIN9) permite compartir comentarios que contribuyen a mejorar las próximas actividades.
+
+<div align="center">
+
+<a href="https://bit.ly/4gOOIN9"><img src="assets/Encuesta de satisfacción_México STEM Week_2026_page-0001.jpg" alt="Encuesta de satisfacción de México STEM Week 2026. Escanea el código QR o haz clic para responder." width="360"></a>
+
+</div>
 
 ## ¿Quién organiza e imparte?
 

@@ -111,6 +111,16 @@ Algoritmos · eventos · movimiento · condicionales · ciclos · variables · p
 
 El archivo [solución paso a paso de Creación de videojuegos con Scratch](solucion-creacion-videojuegos-scratch.md) se actualizará después de que termine la transmisión en vivo de Creación de videojuegos con Scratch.
 
+## Encuesta de satisfacción
+
+Después de participar en el taller, responder la [encuesta de satisfacción](https://bit.ly/4gOOIN9) permite compartir comentarios que contribuyen a mejorar las próximas actividades.
+
+<div align="center">
+
+<a href="https://bit.ly/4gOOIN9"><img src="../assets/Encuesta de satisfacción_México STEM Week_2026_page-0001.jpg" alt="Encuesta de satisfacción de México STEM Week 2026. Escanea el código QR o haz clic para responder." width="360"></a>
+
+</div>
+
 ## ¿Quién organiza e imparte?
 
 La organización e impartición del taller está a cargo de **Aimée Pineda**, EdTech Developer. [Sitio web](https://emelink.vercel.app/).
