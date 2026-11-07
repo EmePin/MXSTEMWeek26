@@ -50,16 +50,11 @@ Ambos talleres son en línea, gratuitos, en español y abiertos a cualquier paí
 
 ## Ejemplos de proyectos para continuar aprendiendo
 
-- [Proyectos compartidos en Scratch](https://scratch.mit.edu/explore/projects/all).
-- [Proyectos iniciales creados por el equipo de Scratch](https://scratch.mit.edu/help/starter_projects/).
 - [Galería comunitaria de circuitos de Tinkercad](https://www.tinkercad.com/things?sort=popular&type=circuits&view_mode=small).
-- [Proyectos compartidos en Arduino Project Hub](https://projecthub.arduino.cc/).
 
 ## Tutoriales para continuar aprendiendo
 
-- [Tutoriales oficiales de Scratch](https://scratch.mit.edu/help/videos/).
 - [Tutoriales oficiales de circuitos de Tinkercad](https://www.tinkercad.com/learn/circuits).
-- [Tutoriales oficiales de Arduino](https://docs.arduino.cc/tutorials/).
 
 ## Soluciones paso a paso de los talleres en vivo
 
