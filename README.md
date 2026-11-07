@@ -19,7 +19,13 @@ México STEM Week es una iniciativa nacional de Movimiento STEM+ y sus aliados, 
 | Fecha y hora (UTC-6) | Taller | Proyecto |
 | --- | --- | --- |
 | Sábado 7 de noviembre · 18:00–20:00 h | [Creación de videojuegos con Scratch](scratch/README.md) | Un videojuego de laberinto con personaje, obstáculos y meta. |
-| Domingo 8 de noviembre · 18:00–20:00 h | [Creación de circuitos con Tinkercad](arduino/README.md) | Un circuito simulado con Arduino UNO R3 y tres LED. |
+| Domingo 8 de noviembre · 18:00–20:00 h | [Creación de circuitos con Tinkercad](arduino/README.md) | Un circuito simulado con Arduino UNO R3 y dos LED. |
+
+<div align="center">
+
+<img src="assets/scratch-project.png" alt="Proyecto de videojuego de laberinto creado en Scratch" width="48%"> <img src="assets/tinkercad-project.png" alt="Proyecto de circuito con Arduino en Tinkercad" width="48%">
+
+</div>
 
 Ambos talleres son en línea, gratuitos, en español y abiertos a cualquier país. Dirigidos al público general a partir de los 13 años.
 
@@ -43,8 +49,10 @@ Sitio web: [https://emelink.vercel.app/](https://emelink.vercel.app/)
 
 ## Licencia
 
-Los materiales didácticos originales de estos talleres se comparten bajo la licencia [Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.es). Puedes compartirlos y adaptarlos dando crédito a Aimée Pineda e indicando los cambios; las adaptaciones deben compartirse bajo la misma licencia. Los logotipos y marcas conservan los derechos de sus respectivos titulares.
+Los materiales didácticos originales de estos talleres se comparten bajo la licencia [Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.es). Puedes compartirlos y adaptarlos dando crédito a Aimee Pineda e indicando los cambios; las adaptaciones deben compartirse bajo la misma licencia. Los logotipos y marcas conservan los derechos de sus respectivos titulares.
 
 ---
 
 #STEMEstáEnTodosLados #MéxicoSTEMWeek #YoSoySTEM
+
+Última actualización: 6 de noviembre de 2026.

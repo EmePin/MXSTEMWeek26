@@ -21,9 +21,30 @@ El taller aborda fundamentos de electrónica y programación mediante circuitos 
 - **Público:** general, a partir de 13 años
 - **Nivel:** principiante
 
-## Reto
+## Retos de programación
 
-Simular un Arduino que encienda tres LED uno tras otro y repita la secuencia. Revisaremos las conexiones, el uso de resistencias y cómo cambiar el comportamiento con código.
+<div align="center">
+
+<img src="../assets/tinkercad-project.png" alt="Proyecto de circuito con Arduino en Tinkercad" width="80%">
+
+</div>
+
+### Reto 1: Encender un LED
+
+Conecta un LED a la placa Arduino UNO R3 y escribe un programa para encenderlo.
+
+### Reto 2: Parpadeos según el número del pin
+
+Conecta dos LED a dos pines digitales diferentes de una placa UNO R3 y desarrolla un programa en el que cada LED parpadee según el número del pin al que está conectado:
+
+- Si el número del pin es par, el LED debe parpadear dos veces.
+- Si el número del pin es impar, el LED debe parpadear tres veces.
+- El LED conectado al pin par debe parpadear con intervalos de 1000 milisegundos.
+- El LED conectado al pin impar debe parpadear con intervalos de 500 milisegundos.
+
+### Reto adicional: Controlar varios LED
+
+Modifica el programa para que ambos LED parpadeen al mismo tiempo. Después, imagina que necesitas controlar los LED conectados a todos los pines digitales del 2 al 9: ¿cómo podrías recorrer ese rango de pines y controlar sus parpadeos sin escribir una llamada a `parpadear()` para cada LED?
 
 ## Temario
 
@@ -44,36 +65,213 @@ Simular un Arduino que encienda tres LED uno tras otro y repita la secuencia. Re
 ## Componentes del reto
 
 - Arduino UNO R3 virtual.
-- Tres LED de distintos colores.
+- Dos LED de distintos colores.
 - Tres resistencias para LED (por ejemplo, 220 Ω).
 - Cables virtuales y protoboard (opcional).
 
-Conecta el ánodo de cada LED (pata larga) a un pin digital mediante una resistencia y el cátodo (pata corta) a GND. En el ejemplo se usan los pines 8, 9 y 10.
+Conecta el ánodo de cada LED (pata larga) a un pin digital mediante una resistencia y el cátodo (pata corta) a GND. El código de ejemplo enciende y apaga el LED integrado del pin 13.
 
 ## Código de ejemplo
 
 ```cpp
-const int leds[] = {8, 9, 10};
-const int cantidadLeds = 3;
+const int pinLED = 13;
 
 void setup() {
-  for (int i = 0; i < cantidadLeds; i++) {
-    pinMode(leds[i], OUTPUT);
-  }
+  pinMode(pinLED, OUTPUT);
 }
 
 void loop() {
-  for (int i = 0; i < cantidadLeds; i++) {
-    digitalWrite(leds[i], HIGH);
-    delay(500);
-    digitalWrite(leds[i], LOW);
+  digitalWrite(pinLED, HIGH);
+  delay(1000);
+  digitalWrite(pinLED, LOW);
+  delay(1000);
+}
+```
+
+## Conceptos de programación para el taller
+
+### 1. ¿Qué es un algoritmo?
+
+Es un conjunto ordenado y finito de pasos o instrucciones que permiten resolver un problema o realizar una tarea.
+
+Algunos ejemplos de algoritmos cotidianos son preparar un sándwich, cepillarse los dientes, cruzar una calle o calcular el promedio de tres calificaciones.
+
+**Algoritmo para encender un LED:**
+
+1. Configurar el pin como salida.
+2. Encender el LED.
+3. Esperar un segundo.
+4. Apagar el LED.
+
+### 2. ¿Qué es una variable?
+
+Es un espacio en la memoria de la computadora donde se almacena un dato que puede utilizarse o modificarse durante un programa.
+
+### 3. ¿Qué tipos de datos podemos guardar en una variable?
+
+El tipo de dato indica qué clase de valor se guarda en una variable. Algunos tipos comunes en Arduino con C++ son:
+
+| Tipo | Qué almacena | Ejemplo |
+| --- | --- | --- |
+| `int` | Números enteros | `int edad = 13;` |
+| `float` | Números con decimales | `float voltaje = 5.0;` |
+| `char` | Un carácter | `char inicial = 'A';` |
+| `bool` | Un valor verdadero o falso | `bool encendido = true;` |
+| `String` | Texto | `String mensaje = "Hola";` |
+
+### 4. ¿Qué es una constante?
+
+Es un dato cuyo valor no debe cambiar durante el programa. En C++ se declara con la palabra `const`. En el código de ejemplo, `const int pinLED = 13;` guarda el número del pin y evita que se cambie por accidente.
+
+### 5. ¿Qué significa inicializar?
+
+Es asignar un valor inicial a una variable cuando se declara o antes de comenzar a utilizarla. Por ejemplo: `int contador = 0;`.
+
+### 6. ¿Qué operadores se utilizan en C++?
+
+Los operadores permiten hacer cálculos y comparar o combinar condiciones. Estos son algunos de los más usados:
+
+| Grupo | Operador | Significado | Ejemplo |
+| --- | --- | --- | --- |
+| Aritméticos | `+`, `-`, `*`, `/`, `%` | Sumar, restar, multiplicar, dividir y obtener el residuo | `promedio = suma / 3;` |
+| Comparación | `==`, `!=`, `>`, `<`, `>=`, `<=` | Comparar dos valores; el resultado es verdadero o falso | `temperatura >= 30` |
+| Lógicos | `&&`, `||`, `!` | Combinar condiciones (Y, O, NO) | `temperatura > 20 && temperatura < 30` |
+| Asignación | `=` | Guardar un valor en una variable | `contador = 0;` |
+
+`=` asigna un valor; `==` comprueba si dos valores son iguales.
+
+### 7. ¿Para qué se utiliza `if`?
+
+`if` permite ejecutar instrucciones solo cuando una condición es verdadera. Se puede agregar `else` para indicar qué hacer cuando es falsa.
+
+**Ejemplo cotidiano:** Si el semáforo está en verde, cruzo; si no, espero.
+
+**Ejemplo en Arduino:** Encender el LED si la temperatura supera los 30 grados y apagarlo en caso contrario.
+
+```cpp
+const int pinLED = 13;
+const int temperatura = 32;
+
+void setup() {
+  pinMode(pinLED, OUTPUT);
+}
+
+void loop() {
+  if (temperatura > 30) {
+    digitalWrite(pinLED, HIGH);
+  } else {
+    digitalWrite(pinLED, LOW);
   }
 }
 ```
 
+### 8. ¿Qué es un ciclo?
+
+Es una estructura de programación que permite repetir un conjunto de instrucciones varias veces, mientras se cumpla una condición o durante una cantidad determinada de repeticiones.
+
+### 9. ¿Cuándo utilizo `while`?
+
+Se utiliza cuando queremos repetir instrucciones mientras una condición sea verdadera. No necesariamente sabemos cuántas veces se repetirá el ciclo.
+
+**Ejemplo cotidiano:** Mientras no llegue el autobús, espero.
+
+**Ejemplo en Arduino:** Hacer parpadear el LED mientras un contador sea menor que tres.
+
+```cpp
+const int pinLED = 13;
+
+void setup() {
+  pinMode(pinLED, OUTPUT);
+}
+
+void loop() {
+  int parpadeos = 0;
+  while (parpadeos < 3) {
+    digitalWrite(pinLED, HIGH);
+    delay(500);
+    digitalWrite(pinLED, LOW);
+    delay(500);
+    parpadeos++;
+  }
+  delay(1000);
+}
+```
+
+### 10. ¿Cuándo utilizo `for`?
+
+Se utiliza cuando conocemos la cantidad de veces que queremos repetir una instrucción o podemos establecer un contador para controlar las repeticiones.
+
+**Ejemplo cotidiano:** Dar cinco pasos para llegar a la puerta.
+
+**Ejemplo en Arduino:** Hacer parpadear el LED tres veces con un contador `for`.
+
+```cpp
+const int pinLED = 13;
+
+void setup() {
+  pinMode(pinLED, OUTPUT);
+}
+
+void loop() {
+  for (int parpadeos = 0; parpadeos < 3; parpadeos++) {
+    digitalWrite(pinLED, HIGH);
+    delay(500);
+    digitalWrite(pinLED, LOW);
+    delay(500);
+  }
+  delay(1000);
+}
+```
+
+### 11. ¿Qué es una función?
+
+Es un bloque de código que realiza una tarea específica y puede reutilizarse en diferentes partes de un programa.
+
+### 12. ¿Qué es una función vacía o que no retorna nada?
+
+Es una función que realiza una tarea, pero no devuelve ningún valor al lugar desde donde fue llamada. En C++ se utiliza la palabra reservada `void` para declararla. En este ejemplo, `setup()` y `loop()` son funciones `void`.
+
+### 13. ¿Cuáles son los tipos de errores en programación?
+
+| Tipo de error | Descripción | Ejemplo |
+| --- | --- | --- |
+| Sintaxis | Se escribe incorrectamente una instrucción o se incumplen las reglas del lenguaje. | Olvidar un `;`. |
+| Ejecución | Ocurre mientras el programa está funcionando. | Intentar acceder a una posición inválida de un arreglo. |
+| Lógica | El programa se ejecuta, pero no produce el resultado esperado. | Utilizar `>` en lugar de `>=`. |
+
+En Arduino también puede haber problemas fuera del código, por ejemplo, una conexión incorrecta, un cálculo equivocado o un componente dañado.
+
+### 14. ¿Cuáles son las reglas para nombrar variables en C++?
+
+1. **Comenzar con una letra o guion bajo (`_`).** No pueden comenzar con un número.
+   - Correcto: `edad`, `_contador`
+   - Incorrecto: `2edad`
+2. **No utilizar espacios.** Si el nombre tiene varias palabras, se pueden unir usando mayúsculas.
+   - Correcto: `ledAzul`, `tiempoEspera`
+   - Incorrecto: `led azul`
+3. **No utilizar caracteres especiales ni acentos.**
+   - Correcto: `numero`, `anio`
+   - Incorrecto: `número`, `año`, `led-azul`
+4. **No utilizar palabras reservadas del lenguaje.**
+   - Correcto: `contador`, `numeroLed`
+   - Incorrecto: `int`, `while`, `return`
+5. **Distinguir entre mayúsculas y minúsculas.** `ledAzul`, `LedAzul` y `ledazul` son nombres diferentes.
+6. **Utilizar nombres descriptivos** que indiquen qué información almacena la variable.
+   - Correcto: `temperatura`, `repeticiones`
+   - Poco recomendable: `x`, `dato1`
+7. **Mantener una misma convención de escritura.** Por ejemplo, usar camelCase: `ledAzul`, `tiempoEspera`, `numeroRepeticiones`.
+
 ## Habilidades que practicarás
 
 Electrónica básica · componentes y conexiones · Ley de Ohm · entradas y salidas digitales · variables · funciones · ciclos · simulación y depuración.
+
+## Tutoriales oficiales y proyectos para seguir practicando
+
+- [Tutoriales de circuitos de Tinkercad](https://www.tinkercad.com/learn/circuits): guías paso a paso para simular y programar circuitos.
+- [Ejemplos oficiales de Arduino](https://docs.arduino.cc/built-in-examples/): prácticas como hacer parpadear un LED, leer un botón, usar ciclos y generar tonos.
+- [Tutoriales oficiales de Arduino](https://docs.arduino.cc/tutorials/).
+
+En Tinkercad puedes crear con Arduino proyectos como un semáforo con LED, un LED controlado por un botón, una secuencia de luces o una alarma sencilla con un zumbador.
 
 ## Más información
 
@@ -86,7 +284,7 @@ Electrónica básica · componentes y conexiones · Ley de Ohm · entradas y sal
 
 ## Licencia
 
-Los materiales didácticos originales de estos talleres se comparten bajo la licencia [Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.es). Puedes compartirlos y adaptarlos dando crédito a Aimée Pineda e indicando los cambios; las adaptaciones deben compartirse bajo la misma licencia. Los logotipos y marcas conservan los derechos de sus respectivos titulares.
+Los materiales didácticos originales de estos talleres se comparten bajo la licencia [Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.es). Puedes compartirlos y adaptarlos dando crédito a Aimee Pineda e indicando los cambios; las adaptaciones deben compartirse bajo la misma licencia. Los logotipos y marcas conservan los derechos de sus respectivos titulares.
 
 ---
 
