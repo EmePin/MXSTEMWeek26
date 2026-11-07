@@ -91,7 +91,7 @@ Es un conjunto ordenado y finito de pasos o instrucciones para resolver un probl
 
 ## Habilidades que se practican
 
-Algoritmos · eventos · movimiento · condicionales · ciclos · variables · pruebas y depuración · creatividad.
+Algoritmos · eventos · movimiento · condicionales · ciclos · variables · pruebas y depuración · pensamiento lógico · creatividad · resolución de problemas.
 
 ## Ejemplos de proyectos para continuar aprendiendo
 

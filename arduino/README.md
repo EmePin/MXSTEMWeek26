@@ -298,7 +298,7 @@ En Arduino también puede haber problemas fuera del código, por ejemplo, una co
 
 ## Habilidades que se practican
 
-Electrónica básica · componentes y conexiones · Ley de Ohm · entradas y salidas digitales · variables · funciones · ciclos · simulación y depuración.
+Electrónica básica · componentes y conexiones · Ley de Ohm · entradas y salidas digitales · variables · funciones · ciclos · simulación y depuración · pensamiento lógico · creatividad · resolución de problemas.
 
 ## Ejemplos de proyectos para continuar aprendiendo
 
