@@ -20,6 +20,7 @@ El taller aborda fundamentos de electrónica y programación mediante circuitos 
   - [Reto adicional: Controlar varios LED](#reto-adicional-controlar-varios-led)
 - [Temario](#temario)
 - [Componentes del reto](#componentes-del-reto)
+- [Ley de Ohm: ¿cómo elegir una resistencia?](#ley-de-ohm-cómo-elegir-una-resistencia)
 - [Código de ejemplo](#código-de-ejemplo)
 - [Conceptos de programación para el taller](#conceptos-de-programación-para-el-taller)
   - [1. ¿Qué es un algoritmo?](#1-qué-es-un-algoritmo)
@@ -105,6 +106,14 @@ El reto adicional consiste en modificar el programa para que ambos LED parpadeen
 - Cables virtuales y protoboard (opcional).
 
 La conexión de cada LED requiere que el ánodo (pata larga) se conecte a un pin digital mediante una resistencia y que el cátodo (pata corta) se conecte a GND. El código de ejemplo enciende y apaga el LED integrado del pin 13.
+
+## Ley de Ohm: ¿cómo elegir una resistencia?
+
+**Pregunta guía:** ¿Cómo podemos elegir la resistencia adecuada para proteger un LED conectado a Arduino?
+
+Para calcularla, aplicamos la Ley de Ohm: `R = (Vfuente − VLED) / I`. Restamos el voltaje del LED al voltaje de la fuente y dividimos el resultado entre la corriente deseada, expresada en amperes. Para un LED conectado a una salida de 5 V de Arduino, revisamos el voltaje y la corriente recomendados para ese LED y elegimos una resistencia comercial igual o mayor al valor calculado.
+
+Video de apoyo: [Ley de Ohm y elección de una resistencia](https://www.youtube.com/watch?v=r1KmLxYzJVA).
 
 ## Código de ejemplo
 
