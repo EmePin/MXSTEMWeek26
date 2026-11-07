@@ -13,12 +13,12 @@ El taller aborda fundamentos de electrónica y programación mediante circuitos 
 ## Índice
 
 - [Información de la actividad](#información-de-la-actividad)
+- [Requisitos](#requisitos)
 - [Retos de programación](#retos-de-programación)
   - [Reto 1: Encender un LED](#reto-1-encender-un-led)
   - [Reto 2: Parpadeos según el número del pin](#reto-2-parpadeos-según-el-número-del-pin)
   - [Reto adicional: Controlar varios LED](#reto-adicional-controlar-varios-led)
 - [Temario](#temario)
-- [Requisitos](#requisitos)
 - [Componentes del reto](#componentes-del-reto)
 - [Código de ejemplo](#código-de-ejemplo)
 - [Conceptos de programación para el taller](#conceptos-de-programación-para-el-taller)
@@ -39,8 +39,9 @@ El taller aborda fundamentos de electrónica y programación mediante circuitos 
 - [Habilidades que se practican](#habilidades-que-se-practican)
 - [Ejemplos de proyectos para continuar aprendiendo](#ejemplos-de-proyectos-para-continuar-aprendiendo)
 - [Tutoriales para continuar aprendiendo](#tutoriales-para-continuar-aprendiendo)
-- [Más información](#más-información)
+- [Solución paso a paso: Creación de circuitos con Tinkercad](#solución-paso-a-paso-creación-de-circuitos-con-tinkercad)
 - [¿Quién organiza e imparte?](#quién-organiza-e-imparte)
+- [Más información](#más-información)
 - [Licencia](#licencia)
 
 ## Información de la actividad
@@ -48,12 +49,18 @@ El taller aborda fundamentos de electrónica y programación mediante circuitos 
 - **Fecha:** domingo 8 de noviembre de 2026
 - **Horario:** 18:00 a 20:00 h (UTC-6)
 - **Modalidad:** en línea y en vivo por YouTube
-- **Transmisión:** [Ver el taller en YouTube](https://youtube.com/live/1a1yBBRa-ws?feature=share)
+- **Transmisión en vivo:** [Creación de circuitos con Tinkercad](https://youtube.com/live/1a1yBBRa-ws?feature=share)
 - **Participación:** abierta a cualquier país
 - **Idioma:** español
 - **Costo:** gratuito
 - **Público:** general, a partir de 13 años
 - **Nivel:** principiante
+
+## Requisitos
+
+- Una computadora con conexión a internet.
+- No se requiere experiencia previa ni contar con una placa física de Arduino.
+- Acceso a [Tinkercad](https://www.tinkercad.com/).
 
 ## Retos de programación
 
@@ -89,12 +96,6 @@ El reto adicional consiste en modificar el programa para que ambos LED parpadeen
 | 40–90 min | **Programación de Arduino** | Resolución del reto paso a paso mediante variables, funciones y ciclos. |
 | 90–110 min | **Pruebas y mejoras** | Simulación del circuito y ajuste de conexiones y código para corregir errores. |
 | 110–120 min | **Resultados y preguntas** | Presentación de resultados y espacio para compartir preguntas e ideas. |
-
-## Requisitos
-
-- Una computadora con conexión a internet.
-- No se requiere experiencia previa ni contar con una placa física de Arduino.
-- Acceso a [Tinkercad](https://www.tinkercad.com/).
 
 ## Componentes del reto
 
@@ -309,14 +310,18 @@ Electrónica básica · componentes y conexiones · Ley de Ohm · entradas y sal
 - [Tutoriales oficiales de circuitos de Tinkercad](https://www.tinkercad.com/learn/circuits): guías para simular y programar circuitos.
 - [Tutoriales oficiales de Arduino](https://docs.arduino.cc/tutorials/).
 
-## Más información
+## Solución paso a paso: Creación de circuitos con Tinkercad
 
-- **En vivo y más detalles:** [https://makestem.vercel.app/](https://makestem.vercel.app/)
-- **México STEM Week — actividades:** [https://mexicostemweek.org/actividades/](https://mexicostemweek.org/actividades/)
+El archivo [solución paso a paso de Creación de circuitos con Tinkercad](solucion-creacion-circuitos-tinkercad.md) se actualizará después de que termine la transmisión en vivo de Creación de circuitos con Tinkercad.
 
 ## ¿Quién organiza e imparte?
 
 La organización e impartición del taller está a cargo de **Aimée Pineda**, EdTech Developer. [Sitio web](https://emelink.vercel.app/).
+
+## Más información
+
+- **En vivo y más detalles:** [https://makestem.vercel.app/](https://makestem.vercel.app/)
+- **México STEM Week — actividades:** [https://mexicostemweek.org/actividades/](https://mexicostemweek.org/actividades/)
 
 ## Licencia
 

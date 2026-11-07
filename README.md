@@ -14,11 +14,12 @@ Dos talleres gratuitos para explorar programación y electrónica creando proyec
 
 - [¿Qué es México STEM Week?](#qué-es-méxico-stem-week)
 - [Talleres](#talleres)
+- [Requisitos](#requisitos)
 - [Ejemplos de proyectos para continuar aprendiendo](#ejemplos-de-proyectos-para-continuar-aprendiendo)
 - [Tutoriales para continuar aprendiendo](#tutoriales-para-continuar-aprendiendo)
-- [Requisitos](#requisitos)
-- [Más información](#más-información)
+- [Soluciones paso a paso de los talleres en vivo](#soluciones-paso-a-paso-de-los-talleres-en-vivo)
 - [¿Quién organiza e imparte?](#quién-organiza-e-imparte)
+- [Más información](#más-información)
 - [Licencia](#licencia)
 
 ## ¿Qué es México STEM Week?
@@ -29,8 +30,8 @@ México STEM Week es una iniciativa nacional de Movimiento STEM+ y sus aliados, 
 
 | Fecha y hora (UTC-6) | Taller | Proyecto | Transmisión en vivo por YouTube |
 | --- | --- | --- | --- |
-| Sábado 7 de noviembre · 18:00–20:00 h | [Creación de videojuegos con Scratch](scratch/README.md) | Un videojuego de laberinto con personaje, obstáculos y meta. | [Ver transmisión](https://youtube.com/live/IqgxJ8tYz1s?feature=share) |
-| Domingo 8 de noviembre · 18:00–20:00 h | [Creación de circuitos con Tinkercad](arduino/README.md) | Un circuito simulado con Arduino UNO R3 y dos LED. | [Ver transmisión](https://youtube.com/live/1a1yBBRa-ws?feature=share) |
+| Sábado 7 de noviembre · 18:00–20:00 h | [Creación de videojuegos con Scratch](scratch/README.md) | Un videojuego de laberinto con personaje, obstáculos y meta. | [Transmisión en vivo: Creación de videojuegos con Scratch](https://youtube.com/live/IqgxJ8tYz1s?feature=share) |
+| Domingo 8 de noviembre · 18:00–20:00 h | [Creación de circuitos con Tinkercad](arduino/README.md) | Un circuito simulado con Arduino UNO R3 y dos LED. | [Transmisión en vivo: Creación de circuitos con Tinkercad](https://youtube.com/live/1a1yBBRa-ws?feature=share) |
 
 <div align="center">
 
@@ -39,6 +40,13 @@ México STEM Week es una iniciativa nacional de Movimiento STEM+ y sus aliados, 
 </div>
 
 Ambos talleres son en línea, gratuitos, en español y abiertos a cualquier país. Dirigidos al público general a partir de los 13 años.
+
+## Requisitos
+
+- Computadora con conexión a internet.
+- No se requiere experiencia previa.
+- [Scratch](https://scratch.mit.edu/) para el taller de videojuegos.
+- [Tinkercad](https://www.tinkercad.com/) para el taller de circuitos.
 
 ## Ejemplos de proyectos para continuar aprendiendo
 
@@ -53,23 +61,21 @@ Ambos talleres son en línea, gratuitos, en español y abiertos a cualquier paí
 - [Tutoriales oficiales de circuitos de Tinkercad](https://www.tinkercad.com/learn/circuits).
 - [Tutoriales oficiales de Arduino](https://docs.arduino.cc/tutorials/).
 
-## Requisitos
+## Soluciones paso a paso de los talleres en vivo
 
-- Computadora con conexión a internet.
-- No se requiere experiencia previa.
-- [Scratch](https://scratch.mit.edu/) para el taller de videojuegos.
-- [Tinkercad](https://www.tinkercad.com/) para el taller de circuitos.
-
-## Más información
-
-- En vivo y detalles: [https://makestem.vercel.app/](https://makestem.vercel.app/)
-- México STEM Week — actividades: [https://mexicostemweek.org/actividades/](https://mexicostemweek.org/actividades/)
+- La [solución paso a paso de Creación de videojuegos con Scratch](scratch/solucion-creacion-videojuegos-scratch.md) se actualizará después de que termine la transmisión en vivo de Creación de videojuegos con Scratch.
+- La [solución paso a paso de Creación de circuitos con Tinkercad](arduino/solucion-creacion-circuitos-tinkercad.md) se actualizará después de que termine la transmisión en vivo de Creación de circuitos con Tinkercad.
 
 ## ¿Quién organiza e imparte?
 
 La organización e impartición de los talleres está a cargo de **Aimée Pineda**, EdTech Developer. Su trabajo se centra en el desarrollo de experiencias prácticas y accesibles de aprendizaje STEM.
 
 Sitio web: [https://emelink.vercel.app/](https://emelink.vercel.app/)
+
+## Más información
+
+- En vivo y detalles: [https://makestem.vercel.app/](https://makestem.vercel.app/)
+- México STEM Week — actividades: [https://mexicostemweek.org/actividades/](https://mexicostemweek.org/actividades/)
 
 ## Licencia
 

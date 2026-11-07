@@ -13,18 +13,19 @@ El taller introduce los fundamentos de los algoritmos y la programación mediant
 ## Índice
 
 - [Información de la actividad](#información-de-la-actividad)
+- [Requisitos](#requisitos)
 - [Reto](#reto)
 - [Reto adicional: crear un segundo nivel](#reto-adicional-crear-un-segundo-nivel)
 - [Conceptos de programación para el taller](#conceptos-de-programación-para-el-taller)
   - [1. ¿Qué es un algoritmo?](#1-qué-es-un-algoritmo)
 - [Temario](#temario)
-- [Requisitos](#requisitos)
 - [Recursos de este proyecto](#recursos-de-este-proyecto)
 - [Habilidades que se practican](#habilidades-que-se-practican)
 - [Ejemplos de proyectos para continuar aprendiendo](#ejemplos-de-proyectos-para-continuar-aprendiendo)
 - [Tutoriales para continuar aprendiendo](#tutoriales-para-continuar-aprendiendo)
-- [Más información](#más-información)
+- [Solución paso a paso: Creación de videojuegos con Scratch](#solución-paso-a-paso-creación-de-videojuegos-con-scratch)
 - [¿Quién organiza e imparte?](#quién-organiza-e-imparte)
+- [Más información](#más-información)
 - [Licencia](#licencia)
 
 ## Información de la actividad
@@ -32,12 +33,18 @@ El taller introduce los fundamentos de los algoritmos y la programación mediant
 - **Fecha:** sábado 7 de noviembre de 2026
 - **Horario:** 18:00 a 20:00 h (UTC-6)
 - **Modalidad:** en línea y en vivo por YouTube
-- **Transmisión:** [Ver el taller en YouTube](https://youtube.com/live/IqgxJ8tYz1s?feature=share)
+- **Transmisión en vivo:** [Creación de videojuegos con Scratch](https://youtube.com/live/IqgxJ8tYz1s?feature=share)
 - **Participación:** abierta a cualquier país
 - **Idioma:** español
 - **Costo:** gratuito
 - **Público:** general, a partir de 13 años
 - **Nivel:** principiante
+
+## Requisitos
+
+- Una computadora con conexión a internet.
+- No se requiere experiencia previa.
+- Acceso a [Scratch](https://scratch.mit.edu/).
 
 ## Reto
 
@@ -77,12 +84,6 @@ Es un conjunto ordenado y finito de pasos o instrucciones para resolver un probl
 | 90–110 min | **Pruebas y mejoras** | Corrección de errores, pruebas del juego y mejoras al recorrido. |
 | 110–120 min | **Presentación y preguntas** | Presentación del proyecto y espacio para compartir preguntas e ideas. |
 
-## Requisitos
-
-- Una computadora con conexión a internet.
-- No se requiere experiencia previa.
-- Acceso a [Scratch](https://scratch.mit.edu/).
-
 ## Recursos de este proyecto
 
 - `maze_background.png`: escenario de laberinto.
@@ -101,14 +102,18 @@ Algoritmos · eventos · movimiento · condicionales · ciclos · variables · p
 
 - [Tutoriales oficiales de Scratch](https://scratch.mit.edu/help/videos/): videos sobre juegos, historias y animaciones.
 
-## Más información
+## Solución paso a paso: Creación de videojuegos con Scratch
 
-- **En vivo y más detalles:** [https://makestem.vercel.app/](https://makestem.vercel.app/)
-- **México STEM Week — actividades:** [https://mexicostemweek.org/actividades/](https://mexicostemweek.org/actividades/)
+El archivo [solución paso a paso de Creación de videojuegos con Scratch](solucion-creacion-videojuegos-scratch.md) se actualizará después de que termine la transmisión en vivo de Creación de videojuegos con Scratch.
 
 ## ¿Quién organiza e imparte?
 
 La organización e impartición del taller está a cargo de **Aimée Pineda**, EdTech Developer. [Sitio web](https://emelink.vercel.app/).
+
+## Más información
+
+- **En vivo y más detalles:** [https://makestem.vercel.app/](https://makestem.vercel.app/)
+- **México STEM Week — actividades:** [https://mexicostemweek.org/actividades/](https://mexicostemweek.org/actividades/)
 
 ## Licencia
 
