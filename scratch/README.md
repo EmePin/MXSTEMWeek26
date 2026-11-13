@@ -47,13 +47,13 @@ El taller introduce los fundamentos de los algoritmos y la programación mediant
 
 ## Reto
 
-Desarrolla un videojuego de laberinto en Scratch. El jugador controlará un robot que deberá encontrar la salida mientras evita las paredes, obstáculos y un rayo en movimiento. Integra eventos, movimiento, condicionales, ciclos, variables y comunicación entre objetos para programar estas reglas:
+El reto consiste en desarrollar un videojuego de laberinto en Scratch. El jugador controlará un robot que deberá encontrar la salida mientras evita las paredes y a un rayo en movimiento. Integra eventos, movimiento, condicionales, ciclos, variables y comunicación entre objetos para programar estas reglas:
 
-1. **Movimiento del robot:** coloca al robot en una posición inicial y permite que se desplace por el laberinto con las flechas del teclado (arriba, abajo, izquierda y derecha).
+1. **Movimiento del robot:** Colocar al robot en una posición inicial y permitir que se desplace por el laberinto con las flechas del teclado (arriba, abajo, izquierda y derecha).
 2. **Colisiones con las paredes:** si el robot toca una pared, debe regresar automáticamente a su posición inicial.
-3. **Rayo en movimiento:** programa el rayo para que se desplace de arriba hacia abajo y viceversa entre dos posiciones. Si toca al robot, este debe regresar a su posición inicial.
-4. **Cambio de nivel:** inicia el juego en el nivel 1. Cuando el robot llegue a la bandera verde, debe avanzar al nivel 2.
-5. **Animación de victoria:** al completar el nivel, reproduce un sonido de victoria, muestra un diálogo del robot y ejecuta una animación en la que levante la mano para celebrar.
+3. **Rayo en movimiento:** Programar el rayo para que se desplace de arriba hacia abajo y viceversa entre dos posiciones. Si toca al robot, este debe regresar a su posición inicial.
+4. **Cambio de nivel:** Iniciar el juego en el nivel 1. Cuando el robot llegue a la bandera verde, debe avanzar al nivel 2.
+5. **Animación de victoria:** al completar el nivel, reproducir un sonido de victoria, mostrar un diálogo del robot y ejecutar una animación en la que levante la mano para celebrar.
 
 El propósito del reto es integrar estructuras de control, eventos, movimiento, detección de colisiones y comunicación entre objetos para crear un videojuego funcional.
 
